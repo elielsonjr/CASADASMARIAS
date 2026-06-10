@@ -157,7 +157,10 @@ const LoungeSection = {
             </div>
             <div class="lounge-grid">
                 <div class="lounge-img-wrapper">
-                    <img src="assets/lounge_bg.png" alt="Casa das Marias Lounge" class="lounge-img" loading="lazy">
+                    <video autoplay muted loop playsinline class="lounge-video">
+                        <source src="assets/casa.mp4" type="video/mp4">
+                        <img src="assets/lounge_bg.png" alt="Casa das Marias Lounge" class="lounge-img" loading="lazy">
+                    </video>
                 </div>
                 <div class="lounge-details">
                     <h3>Exclusividade & Conforto</h3>

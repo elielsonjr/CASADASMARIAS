@@ -487,7 +487,16 @@ a {
     transition: var(--transition-smooth);
 }
 
-.lounge-img-wrapper:hover .lounge-img {
+.lounge-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: var(--transition-smooth);
+}
+
+.lounge-img-wrapper:hover .lounge-img,
+.lounge-img-wrapper:hover .lounge-video {
     transform: scale(1.04);
 }
 
